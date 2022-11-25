@@ -1,3 +1,121 @@
+
 body {
     margin: 0;
+}
+
+#content {
+    width: 550px;
+    height: 650px;
+    margin: auto;
+    margin-top: 100px;
+    background: #1F2937;
+}
+
+h1 {
+    position: relative;
+    top: 115px;
+    left: 52px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+.green {
+    color: #4ADF86;
+}
+
+p {
+    position: relative;
+    left: 52px;
+    top: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button {
+    position: relative;
+    left: 52px;
+    top: 135px;
+    background: #10B981;
+    border: none;
+    width: 160px;
+    height: 35px;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 13px;
+}
+
+#line {
+    border-top: 1px solid #2F3E53;
+    width: 446px;
+    position: relative;
+    top: 160px;
+    left: 52px;
+}
+
+.rectangle {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 39px;
+    color: #55F991;
+}
+
+#rect1 {
+    position: relative;
+    left: 52px;
+    top: 205px;
+}
+
+#rect2 {
+    position: relative;
+    left: 287px;
+    top: 166px;
+}
+
+#symbols,
+#numbers {
+    top: 200px;
+    width: 70px;
+    margin: 10px;
+    background: #2F3E53;
+}
+
+label {
+    color: white;
+    font-family: 'Inter';
+}
+
+#password-length {
+    position: relative;
+    left: 250px;
+    top: 105px;
+}
+
+#copy1 {
+    position: relative;
+    top: 208px;
+    left: 150px;
+}
+
+#copy2 {
+    position: relative;
+    top: 250px;
+    left: -14px;
 }

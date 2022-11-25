@@ -1,9 +1,32 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@700;800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1></h1>
+        <div id="content">
+            <h1>Generate a<br><span class="green">random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <button id="generate-btn">Generate passwords</button>
+            <div id="password-length">
+            <label for="length">Set password length: </label>
+            <select name="password-length" id="length">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15" selected>15</option>
+            </select>
+            </div>
+            <div id="line"></div>
+            <div class="rectangle" id="rect1"></div><div class="rectangle" id="rect2"></div>
+            <button id="symbols">Symbols: On</button><button id="numbers">Numbers: On</button>
+            <button id="copy1">Copy 1 on-click</button>
+            <button id="copy2">Copy 2 on-click</button>
+        </div>
         <script src="index.js"></script>
     </body>
-</html>
